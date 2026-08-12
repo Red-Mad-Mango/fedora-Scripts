@@ -6,6 +6,14 @@ apps=(
  keepassxc
  yt-dlp
  fastfetch
+ # mpv
+ foot
+ ruff
+ rofi
+ btop
+ libreoffice-writer #KDE
+ haruna #KDE
+ cmus #KDE
 )
 
 for app in "${apps[@]}"; do
