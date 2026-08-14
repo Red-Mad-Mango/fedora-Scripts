@@ -9,11 +9,18 @@ apps=(
  # mpv
  foot
  ruff
- rofi
+ # rofi
  btop
  libreoffice-writer #KDE
- haruna #KDE
+ # haruna #KDE
  cmus #KDE
+ zathura
+ zathura-plugins-all
+ eza
+ zoxide
+ bat
+ swappy
+ papirus-icon-theme
 )
 
 for app in "${apps[@]}"; do
