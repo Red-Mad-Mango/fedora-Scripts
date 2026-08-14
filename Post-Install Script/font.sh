@@ -2,7 +2,6 @@
 set -euo pipefail
 
 fonts=(
-	google-roboto-fonts
   google-roboto-fonts
   rsms-inter-fonts
   vernnobile-oswald-fonts
