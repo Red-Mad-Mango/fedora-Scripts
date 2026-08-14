@@ -16,6 +16,21 @@ fonts=(
   typetogether-literata-fonts
   pt-astra-sans-fonts pt-astra-serif-fonts
   uswds-public-sans-fonts
+  woodardworks-laconic-fonts
+  vernnobile-muli-fonts
+  typetype-molot-fonts
+  tulrich-tuffy-fonts
+  tlomt-sniglet-fonts
+  ossobuffo-jura-fonts
+  ndiscover-exo-2-fonts
+  kemie-bellota-fonts
+  kemie-bellota-text-fonts
+  liberation-narrow-fonts
+  glyphography-newscycle-fonts
+  bpg-sans-regular-fonts
+  google-droid-sans-fonts
+  gfs-orpheus-sans
+  weiweihuanghuang-work-sans-fonts
 )
 
 for fonts in "${fonts[@]}"; do
