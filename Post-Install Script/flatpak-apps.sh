@@ -15,25 +15,24 @@ apps=(
   org.inkscape.Inkscape #inkscape
   org.gimp.GIMP #gimp
   org.kde.kdenlive #kdenlive
-  org.gnome.Music #gnome-music
+  # org.gnome.Music #gnome-music
   io.gitlab.theevilskeleton.Upscaler #upscaler
   com.github.johnfactotum.Foliate #foliate
 #  org.kde.ghostwriter
   no.bragefuglseth.Keypunch #keypunch
   io.github.kolunmi.Bazaar #bazaar
-  be.alexandervanhee.gradia #gradia
+  # be.alexandervanhee.gradia #gradia
   org.gnome.Chess #gnome-chess
   app.drey.EarTag #eartag
   io.github.shonebinu.Defuse #defuse
   io.github.nacho.mundi #mundi
   br.eng.silas.qpdftools #qpdftools
-  org.gnome.gitlab.somas.Apostrophe #apostrophe
+  # org.gnome.gitlab.somas.Apostrophe #apostrophe
   io.gitlab.adhami3310.Converter #switchroo
-  org.gnome.World.Secrets #secrets
-  io.github.wartybix.Constrict #constrict
+  # org.gnome.World.Secrets #secrets
+  # io.github.wartybix.Constrict #constrict
 )
 
 for app in "${apps[@]}"; do
   flatpak install -y flathub "$app"
 done
-
