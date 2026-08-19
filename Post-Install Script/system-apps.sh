@@ -21,6 +21,9 @@ apps=(
  bat
  swappy
  papirus-icon-theme
+ wf-recorder
+ ncdu
+ slurp
 )
 
 for app in "${apps[@]}"; do
