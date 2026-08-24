@@ -2,28 +2,31 @@
 set -euo pipefail
 
 apps=(
+ # noctalia #sway
  helix	
  keepassxc
  yt-dlp
  fastfetch
- # mpv
- foot
+ # mpv #sway
+ # foot #sway
  ruff
  # rofi
  btop
  libreoffice-writer #KDE
  # haruna #KDE
- cmus #KDE
- zathura
- zathura-plugins-all
+ cmus 
+ zathura #sway
+ zathura-plugins-all #sway
  eza
  zoxide
  bat
- swappy
+ swappy #sway
  papirus-icon-theme
- wf-recorder
- ncdu
- slurp
+ ncdu #sway
+ wf-recorder #sway
+ slurp #sway
+ xdg-desktop-portal-gtk #sway
+ xdg-desktop-portal #sway
 )
 
 for app in "${apps[@]}"; do
