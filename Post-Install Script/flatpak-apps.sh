@@ -7,20 +7,20 @@ flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.f
 apps=(
   com.github.tchx84.Flatseal #flatseal      
   com.heroicgameslauncher.hgl #heroic game launcher
-#  org.keepassxc.KeePassXC #KeepassXC
+ # org.keepassxc.KeePassXC #KeepassXC
   com.github.jeromerobert.pdfarranger #pdfarranger
-#  org.localsend.localsend_app
+ # org.localsend.localsend_app
   io.gitlab.metadatacleaner.metadatacleaner #metadatacleaner
   page.codeberg.censor.Censor #censor
   org.inkscape.Inkscape #inkscape
-  org.gimp.GIMP #gimp
+  # org.gimp.GIMP #gimp
   org.kde.kdenlive #kdenlive
   # org.gnome.Music #gnome-music
   io.gitlab.theevilskeleton.Upscaler #upscaler
   com.github.johnfactotum.Foliate #foliate
-#  org.kde.ghostwriter
+ # org.kde.ghostwriter
   no.bragefuglseth.Keypunch #keypunch
-  io.github.kolunmi.Bazaar #bazaar
+  # io.github.kolunmi.Bazaar #bazaar
   # be.alexandervanhee.gradia #gradia
   org.gnome.Chess #gnome-chess
   app.drey.EarTag #eartag
@@ -31,6 +31,10 @@ apps=(
   io.gitlab.adhami3310.Converter #switchroo
   # org.gnome.World.Secrets #secrets
   # io.github.wartybix.Constrict #constrict
+  com.github.wwmm.easyeffects #easy effect
+  io.github.nokse22.asciidraw #ascii draw
+  # io.github.masakk1.press #audio compressor
+  # moe.liam.audimorf #audio convertor
 )
 
 for app in "${apps[@]}"; do
