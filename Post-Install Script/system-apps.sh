@@ -12,21 +12,22 @@ apps=(
  ruff
  # rofi
  btop
- libreoffice-writer #KDE
+ # libreoffice-writer #KDE
  # haruna #KDE
  cmus 
- zathura #sway
- zathura-plugins-all #sway
+ # zathura #sway
+ # zathura-plugins-all #sway
  eza
  zoxide
  bat
- swappy #sway
- papirus-icon-theme
- ncdu #sway
- wf-recorder #sway
- slurp #sway
- xdg-desktop-portal-gtk #sway
- xdg-desktop-portal #sway
+ # swappy #sway
+ # papirus-icon-theme #sway
+ # ncdu #sway
+ # wf-recorder #sway
+ # slurp #sway
+ # xdg-desktop-portal-gtk #sway
+ # xdg-desktop-portal #sway
+ # mate-polkit #sway
 )
 
 for app in "${apps[@]}"; do
