@@ -2,26 +2,26 @@
 set -euo pipefail
 
 apps=(
- # noctalia #sway
  helix	
  keepassxc
  yt-dlp
  fastfetch
- # mpv #sway
- # foot #sway
- ruff
- # rofi
  btop
- # libreoffice-writer #KDE
- # haruna #KDE
- cmus 
- # zathura #sway
- # zathura-plugins-all #sway
  eza
  zoxide
  bat
+ papirus-icon-theme
+ ruff
+ # noctalia #sway
+ # mpv #sway
+ # foot #sway
+ # rofi
+ # libreoffice-writer #sway
+ # haruna #KDE
+ # cmus #sway 
+ # zathura #sway
+ # zathura-plugins-all #sway
  # swappy #sway
- # papirus-icon-theme #sway
  # ncdu #sway
  # wf-recorder #sway
  # slurp #sway
