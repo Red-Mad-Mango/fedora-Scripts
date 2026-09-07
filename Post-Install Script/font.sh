@@ -3,7 +3,7 @@ set -euo pipefail
 
 fonts=(
   google-roboto-fonts
-  rsms-inter-fonts
+  rsms-inter-vf-fonts
   vernnobile-oswald-fonts
   sorkintype-merriweather-fonts sorkintype-merriweather-sans-fonts
   tlomt-league-gothic-fonts
@@ -30,6 +30,9 @@ fonts=(
   google-droid-sans-fonts
   gfs-orpheus-sans
   weiweihuanghuang-work-sans-fonts
+  bbox-firago-fonts
+  ektype-baloo-2-fonts
+  extremetuxracer-papercuts-fonts
 )
 
 for fonts in "${fonts[@]}"; do
